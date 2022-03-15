@@ -1,0 +1,16 @@
+{
+  "name": "recommendations-proj",
+  "version": "0.0.1",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "PROJ_TOKEN=$(gcloud auth print-access-token) PROJECT=testing-active-assist LOCATON=us-central1-a node main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "https": "^1.0.0"
+  }
+}
